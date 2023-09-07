@@ -1,0 +1,9 @@
+So why would we ever need class methods at all? The main use case is alternative constructors.
+ A class can only have one init method, but there might be multiple ways to initialize an object.
+  For example, we might want to create an Employee object from data stored in a file. 
+  We can't use a method, because it would require an instance, and there isn't one yet!
+   Here we introduce a class method from_file that accepts a file name, reads the first line 
+   from the file that presumably contains the name of the employee, and returns an object instance
+   . In the return statement, we use the cls variable -- remember that now cls refers to the class,
+    so this will call the init constructor, 
+just like using Employee with parentheses would when used outside the class definition.

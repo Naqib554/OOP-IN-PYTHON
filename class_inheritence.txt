@@ -1,0 +1,43 @@
+OOP:
+Object-oriented programming is fundamentally about code reuse.
+
+1) Code reuse :
+that someone has already written code that solves a part of your problem! 
+Modules like numpy or pandas are a great tool that allows you to use code written by other programmers.
+But what if that code doesn't match your needs exactly? 
+For example, you might want to modify the to_csv method of a pandas DataFrame to adjust the output format.
+You could do that by importing pandas and writing a new function, but it will not be integrated 
+into the DataFrame interface. OOP will allow you to keep interface consistent while customizing functionality.
+
+2) Code reuse :
+You will also often find yourself reusing your own code over and over. 
+For example, when building a website with a lot of graphical elements like buttons and check boxes,
+no matter what the element is, the basic functionality is the same: you need to be able to draw it and click on it.
+There are a few details that differ based on the type of the element, but a lot of the code will be the repeated. 
+Should you copy-paste the basic code for draw and click for every new element?
+
+3) Code reuse
+Wouldn't it be better to have a general data structure like GUIelement that implements the basic 
+draw and click functionality only once?
+
+4) Inheritance
+01:38 - 01:55
+We can accomplish this with inheritance. Class inheritance is mechanism by which we can define 
+a new class that gets all the the functionality of another class plus maybe something 
+extra without re-implementing the code.
+
+5) Understanding inheritance
+Inheritance is a powerful tool of object-oriented languages that allows
+ you to customize functionality of existing classes without having to re-implement methods 
+ from scratch.
+  in programing "scratch" mean starting from the very begining with no existence code or components to 
+  work with.
+  
+
+
+
+
+ Great job, you're a pro! The fact that the instances of a child class are also instances of the parent 
+ class allows you to create consistent interfaces that Alex mentioned in the video. Any place that a Counter
+  could go -- for example, as an argument to a function,
+  you will be able to use Indexer instead because it has the same methods and attributes as Counter.
