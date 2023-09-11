@@ -1,0 +1,5 @@
+LSP:
+"object of parent class"  should be replaceble by the "Object of child class"
+ LSP: child class is able to replace the parent class. mean that the child class have 
+ all the features that have the parent class if this case is not occure then it can cause error.
+ 

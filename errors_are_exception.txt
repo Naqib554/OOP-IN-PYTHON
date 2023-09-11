@@ -1,0 +1,9 @@
+2. Errors are exceptions
+00:10 - 00:57
+Some statements in Python will cause an error when you try to execute them, 
+for example dividing by zero, combining objects of incompatible types, and many others.
+ These errors are called exceptions. Many exceptions have special names, like ZeroDivisionError 
+ or TypeError that you see here. If exceptions not handled correctly, they will stop the execution of your program entirely
+ . This often makes sense -- for example, if I'm trying to use a variable that I never defined, something must have 
+ gone very wrong with my script -- but other times it's undesirable. For example, 
+a division by zero error might be caused by missing data, which isn't always a good reason to terminate the program.

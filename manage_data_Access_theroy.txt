@@ -1,0 +1,10 @@
+1. All class data is public:
+
+All class data in Python is technically public. Any attribute or method of any class 
+can be accessed by anyone. If you are coming from a background in another programming 
+language like Java, this might seem unusual or an oversight, but it is by design. 
+The fundamental principle behind much of Python design "we are all adults here". 
+It is a philosophy that goes beyond just code, and describes how the Python community 
+interacts with each other: you should have trust in your fellow developers.
+
+2)

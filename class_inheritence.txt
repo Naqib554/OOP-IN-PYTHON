@@ -33,6 +33,10 @@ Inheritance is a powerful tool of object-oriented languages that allows
   in programing "scratch" mean starting from the very begining with no existence code or components to 
   work with.
   
+  6)Method inheritance
+Inheritance is powerful because it allows us to reuse and customize code without rewriting existing 
+code. By calling methods of the parent class within the child class, 
+we reuse all the code in those methods, making our code concise and manageable.
 
 
 

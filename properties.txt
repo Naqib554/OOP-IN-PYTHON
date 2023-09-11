@@ -1,0 +1,8 @@
+properties:
+properties are the spacial type of attributes.
+
+7. Why use @property?
+03:31 - 03:45
+Properties are useful because the user of your class will not have to do anything special. 
+They won't even be able to distinguish between properties 
+and regular attributes. You, on the other hand, now have some control over the access
